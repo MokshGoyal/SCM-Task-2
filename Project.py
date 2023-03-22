@@ -39,3 +39,18 @@ while True:
             bikeamt+=y*10
             tveh+=y
             tamt+=y*10
+	elif n==3:
+        print("--------YOUR RECEIPT--------")
+        print("\nNAME OF THE CUSTOMER:",str1.upper())
+        print(car,"x CARS=₹",caramt)
+        print(truck,"x TRUCKS=₹",truckamt)
+        print(bike,"x BIKES=₹",bikeamt)
+        print("TOTAL VEHICLES ADDED:",tveh)
+        print("TOTAL PAYABLE AMOUNT:₹",tamt)
+        print("\n")
+        print(date)
+        print(time)
+        print("----------------------------")
+    elif n==4:
+        print("\nPLEASE VISIT AGAIN!!!")
+        break
